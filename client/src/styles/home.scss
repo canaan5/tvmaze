@@ -1,0 +1,41 @@
+.Home {
+  .movie {
+    align-items: center;
+    a {
+      &:hover {
+        text-decoration: none;
+        color: white;
+      }
+    }
+    .name_container {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      .name {
+        text-align: center;
+        color: white;
+        font-size: 12px;
+      }
+    }
+
+    .rating {
+      position: absolute;
+      top: 2px;
+      left: 18px;
+      color: gold;
+      font-size: 11px;
+      padding: 2px 7px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .year {
+      position: absolute;
+      top: 2px;
+      right: 18px;
+      color: #ddd;
+      font-size: 11px;
+      padding: 2px;
+      background: rgba(0, 0, 0, 0.7);
+    }
+  }
+}
